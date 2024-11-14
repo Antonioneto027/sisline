@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + NextUI",
+  name: "SisLine - Sistema de Gestão de Caixa",
   description: "Make beautiful websites regardless of your design experience.",
   navItems: [
     {
@@ -9,17 +9,14 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "Docs",
+      label: "Resources",
       href: "/docs",
     },
     {
       label: "Pricing",
       href: "/pricing",
     },
-    {
-      label: "Blog",
-      href: "/blog",
-    },
+   
     {
       label: "About",
       href: "/about",

@@ -5,7 +5,8 @@ module.exports = {
   content: [
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
-    './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}'
+    './node_modules/@nextui-org/theme/dist/components/(button|code|input|kbd|link|listbox|navbar|snippet|toggle|ripple|spinner|divider|popover).js',
+ 
   ],
   theme: {
     extend: {
@@ -16,5 +17,10 @@ module.exports = {
     },
   },
   darkMode: "class",
-  plugins: [nextui()],
+  plugins: [nextui({
+    defaultTheme: "light",
+  }
+     
+  )],
 }
+ 
