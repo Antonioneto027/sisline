@@ -1,5 +1,4 @@
 import { title } from "@/components/primitives";
-import { Button } from "@nextui-org/button";
 
 export default function AboutPage() {
 
