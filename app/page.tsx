@@ -32,8 +32,8 @@ export default function Home() {
     src="/cover/2.png"
     className="absolute animate-slideDown1 top-0 left-0"
     alt="Logo"
-    width={100}
-    height={100}
+    width={125}
+    height={125}
   />
   <Image
     src="/cover/3.png"
@@ -64,7 +64,7 @@ export default function Home() {
     height={100}
   />
 </div>
-
+    
       </div>
 
     </section>  

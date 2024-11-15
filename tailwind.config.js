@@ -24,6 +24,11 @@ module.exports = {
         
       },
       keyframes: {
+        text: {
+          to: {
+            backgroundPosition: "200% center",
+          },
+        },
         slideDown: {
           '0%': {
             transform: 'translateY(-25%)',  // Começando mais para cima
