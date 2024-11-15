@@ -8,7 +8,7 @@ export default function AboutPage() {
 
   return (
     <div>
-      <h1 className={title()}>About <span className=" bg-gradient-to-r from-purple-600 via-blue-500 to- -400 inline-block text-transparent bg-clip-text">SisLine</span></h1>
+      <h1 className={title()}>About <span className=" bg-gradient-to-r from-purple-600 via-blue-500 to-purple-400 inline-block text-transparent bg-clip-text">SisLine</span></h1>
       <p className="mt-10 mb-12 text-justify text-xl"><span className="font-bold">SisLine</span> is a system focused to help stores to manage their stock and products. With our system, you can easily manage your inventory, sales, and customers.
         Our system is designed to be easy to use and intuitive, so you can focus on what matters most to your business! 
       </p>
