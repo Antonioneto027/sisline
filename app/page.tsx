@@ -13,7 +13,9 @@ export default function Home() {
   return (
     <section className="font-sans flex content-center flex-row justify-between  gap-4 py-10 md:py-50">
       <div className="inline-block text-center content-center justify-start">
-      <AnimatedTextGradientTW />
+      <div className="animate-slideDown5">
+        <AnimatedTextGradientTW />
+      </div>
         <p className="text-4xl">Your Store Manager</p>
       </div>
       <div>
@@ -65,6 +67,11 @@ export default function Home() {
   />
 </div>
     
+      </div>
+      <div>
+        <button>
+          
+        </button>
       </div>
 
     </section>  

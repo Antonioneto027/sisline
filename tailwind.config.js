@@ -17,10 +17,11 @@ module.exports = {
       animation: {
         "text-gradient": "text 5s linear infinite",
 
-        'slideDown1': 'slideDown 2s ease-out forwards',
-        'slideDown2': 'slideDown2 2s ease-out forwards',
-        'slideDown3': 'slideDown3 2s ease-out forwards',    
-        'slideDown4': 'slideDown3 2s ease-out forwards',      
+        'slideDown1': 'slideDown 4s ease-out forwards',
+        'slideDown2': 'slideDown2 3s ease-out forwards',
+        'slideDown3': 'slideDown3 5s ease-out forwards',    
+        'slideDown4': 'slideDown4 6s ease-out forwards', 
+        'slideDown5': 'slideDown3 2s ease-out forwards', 
         
       },
       keyframes: {
@@ -58,9 +59,21 @@ module.exports = {
             transform: 'translateY(0)',  // Chega na posição original
             opacity: '1',
           },
+        },
+          
           slideDown4: {
             '0%': {
-              transform: 'translateY(-45%)',  // Começa ainda mais acima
+              transform: 'translateY(-60%)',  // Começa ainda mais acima
+              opacity: '0',
+            },
+            '100%': {
+              transform: 'translateY(0)',  // Chega na posição original
+              opacity: '1',
+            },
+          },
+          slideDown5: {
+            '0%': {
+              transform: 'translateY(-50%)',  // Começa ainda mais acima
               opacity: '0',
             },
             '100%': {
@@ -71,7 +84,8 @@ module.exports = {
         },
       },
     },
-  },
+ 
+
   darkMode: "class",  // Habilitando modo escuro
   plugins: [
     nextui({
