@@ -30,7 +30,7 @@ import Image from "next/image";
 
 export const Navbar = () => {
   return (
-    <NextUINavbar className="max-w-full mx-auto px-4" position="sticky">
+    <NextUINavbar className="max-w-3xl mx-auto rounded-xl px-4 shadow-md" position="sticky">
       {/* Alinhamento inicial com logo */}
       <NavbarContent className="basis-1/5 sm:basis-full flex items-center" justify="start">
         <NavbarBrand as="li" className="gap-3">
