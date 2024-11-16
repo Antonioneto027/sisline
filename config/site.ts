@@ -2,7 +2,7 @@ export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
   name: "SisLine - Sistema de Gestão de Caixa",
-  description: "Make beautiful websites regardless of your design experience.",
+  description: "Your Store Manager",
   navItems: [
     {
       label: "Home",
@@ -20,7 +20,6 @@ export const siteConfig = {
       label: "Login",
       href: "/login",
     },
-
   ],
   navMenuItems: [
     {

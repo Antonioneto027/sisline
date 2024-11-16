@@ -1,16 +1,16 @@
 {
 	"name": "siscaixa",
 	"version": "0.0.1",
-	"homepage": "https://Antonioneto027.github.io/react-gh-pages.git",
+	"homepage": "https://antonioneto027.github.io/react-gh-pages",
 	"private": true,
 	"scripts": {
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
-		"dev": "next dev --turbo",
-		"build": "next build", 
-		"start": "next start",
-		"lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix"
-	},
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d app"
+  },
 	"dependencies": {
 		"@midudev/tailwind-animations": "^0.1.0",
 		"@nextui-org/button": "2.0.38",
