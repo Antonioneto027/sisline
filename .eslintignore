@@ -11,7 +11,7 @@ scripts/*
 node_modules
 coverage
 .next
-build
+
 !.commitlintrc.cjs
 !.lintstagedrc.cjs
 !jest.config.js
