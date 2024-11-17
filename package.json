@@ -378,5 +378,8 @@
   "bugs": {
     "url": "https://github.com/Antonioneto027/react-gh-pages/issues"
   },
-  "homepage": "https://github.com/Antonioneto027/react-gh-pages#readme"
+  "homepage": "https://github.com/Antonioneto027/react-gh-pages#readme",
+  "devDependencies": {
+    "@types/node": "^22.9.0"
+  }
 }
