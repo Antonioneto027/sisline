@@ -7,8 +7,8 @@ const nextConfig = {
   experimental: {
     outputFileTracing: true,
   },
-  assetPrefix: isProd ? '/react-gh-pages.git/' : '',
-  basePath: isProd ? '/react-gh-pages.git' : '',
+  assetPrefix: isProd ? '/react-gh-pages/' : '',
+  basePath: isProd ? '/react-gh-pages' : '',
   output: 'export'
  
   };
