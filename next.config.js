@@ -4,6 +4,9 @@ const nextConfig = {
    images: {
     unoptimized: true, // Disable default image optimization
   },
+  experimental: {
+    outputFileTracing: true,
+  },
   assetPrefix: isProd ? '/react-gh-pages.git/' : '',
   basePath: isProd ? '/react-gh-pages.git' : '',
   output: 'export'
